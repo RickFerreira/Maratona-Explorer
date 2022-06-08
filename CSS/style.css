@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+    margin: 0px;
+
+}
+
+html {
+    background-image: url(/IMG/ceu.jpg);/*imagem de fundo total*/
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.6); /*fundo preto com transparencia*/
+    color: white; /*cor do texto*/
+    text-align: center; /*alinhar conteudo*/
+    font-family: sans-serif; /*mudar fonte*/
+    margin-top: 100px; /*afastar de cima*/
+    margin-inline: auto; /*alinhar lateral*/
+    width: 80%; /*sempre 80% da página*/
+    max-width: 400px; /*máximo de largura que pode ter*/
+    padding: 40px; /*largura dos itens de dentro*/
+    border-radius: 25px; /*arredendor bordas*/
+    box-shadow: 10px 10px 10px #000;/*sombra do box*/
+}
+
+h1, p {
+    margin-top: 20px;/*afastar texto*/
+}
+
+p {
+    opacity: 0.7;/*deixar mais opaco*/
+}
+
+input, button {
+    margin-top: 10px;
+    width: 100%;
+    display: block;/*ordenar um em cima do outro*/
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+button {
+    background-color: #e23e29;/**/
+}
+
+button:hover {
+    filter: brightness(1.5);/*mudar cor do butão com mouse*/
+    cursor: pointer;/*mudar cursor do mouse*/
+}
