@@ -1,11 +1,6 @@
 * {
 	box-sizing: border-box;
     margin: 0px;
-
-}
-
-html {
-    /*imagem de fundo total*/
 }
 
 .container {
@@ -37,6 +32,11 @@ input, button {
     padding: 20px;
     border-radius: 10px;
     font-size: 18px;
+}
+
+input{
+    background-color: rgba(43, 0, 0, 0.8); /*fundo preto com transparencia*/
+    margin-top: 20px;
 }
 
 button {
