@@ -1,23 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
   <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial=scale=1.0">
 
-    <link rel="stylesheet" href="./CSS/style.css">
-    <script src="./JS/script.js" defer></script>
+    <script type="text/javascript" src="./JS/scripts.js" defer></script>
+    <link rel="stylesheet" href="./CSS/style.css" />
 
     <title>Can Guru</title>
+
   </head>
   <body style="background-image: url(/IMG/ceu.jpg)">
-    
     <div class="container">
       <img src="./IMG/guru.png" alt="guru" class="guru">
       <h1>Esse é o Can Guru!!</h1>
       <p>Você pode perguntar sobre qualquer coisa a ele e o sábio lhe dará a melhor resposta.</p>
-      <input type="text" placeholder="Digite sua pergunta" />
-      <button>Fazer pergunta</button>
+      <input id="inputPergunta" type="text" placeholder="Digite sua pergunta" />
+      <button id="buttonPerguntar" onclick="fazerPergunta()">Fazer pergunta</button>
+
+      <h3 id="resposta"></h3>
     </div>
   </body>
 
