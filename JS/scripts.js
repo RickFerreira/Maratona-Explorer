@@ -2,13 +2,13 @@
 const inputPergunta = document.querySelector("#inputPergunta")
 const buttonPerguntar = document.querySelector('#buttonPerguntar')
 const respostas = [
-  "Com certeza!",
+  "Depende muito",
   "Melhor você não saber isso agora",
   "Você já sabe a resposta talvez só não queira aceitar",
-  "Não conte com isso.",
+  "Eu não contaria com isso.",
   "Se eu te contar você tentará mudar",
   "Pergunte novamente mais tarde.",
-  "Sim, definitivamente!",
+  "Se eu te contar você não vai acreditar",
   "Você está procurando respostas certa para perguntas erradas, faça outra.",
   "Você pode contar com isso.",
   "Melhor não te dizer agora.",
@@ -21,6 +21,8 @@ const respostas = [
   "Deve sempre esperar o pior assim você evitará decepções",
   "Se acredita nisso então é verdade para você",
   "Sinais apontam que sim.",
+  "Viiixee!!",
+  "Não acho que quem ganhar ou quem perder, nem quem ganhar nem perder, vai ganhar ou perder. Vai todo mundo perder.",
 ]
 
 // clicar em fazer pergunta
