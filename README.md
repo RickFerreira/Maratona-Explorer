@@ -23,8 +23,9 @@
 
 ### 👻 Results
 
-<img  alt="Resultado"  src="https://cdn.discordapp.com/attachments/459871999943114762/984433833296416828/unknown.png">
-<a href="https://rickferreira.github.io/Maratona-Explorer/">-----------------Click aqui para vizualizar-----------------</a>
+<img  alt="Resultado" src="https://cdn.discordapp.com/attachments/459871999943114762/986004136074027048/unknown.png"> 
+<br><br>
+<a href="https://rickferreira.github.io/Maratona-Explorer/">-----------------Click aqui para vizualizar o site-----------------</a>
 
 <br><br>
 
