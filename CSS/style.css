@@ -3,6 +3,11 @@
     margin: 0px;
 }
 
+html {
+    background-color: rgb(1, 93, 109);
+    background-image: url(/IMG/ceu.jpg);
+}
+
 .container {
     background-color: rgba(0, 0, 0, 0.6); /*fundo preto com transparencia*/
     color: white; /*cor do texto*/
@@ -30,7 +35,7 @@ input, button {
     width: 100%;
     display: block;/*ordenar um em cima do outro*/
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 30px;
     font-size: 18px;
 }
 
