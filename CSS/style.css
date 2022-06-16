@@ -4,7 +4,7 @@
 }
 
 html {
-    background-color: rgb(1, 93, 109);
+    background-image: linear-gradient(to right, #000814 0%, #015d6d 50%, #ee9b00 100%);
     background-image: url(/IMG/ceu.jpg);
 }
 
